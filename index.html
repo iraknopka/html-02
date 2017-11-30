@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html sample</title>
+</head>
+<body>
+    <header>
+        <p> How to take care of cats</p>
+    </header>
+    <main>
+    <article>
+        <h2>Tip for hot weather</h2>
+    <p>Make sure your pet has plenty of <i>fresh water</i> during hot weather.</p>
+    <img src="Project HTML/grumpy-cat.jpg" alt="Grumpy Cat">
+    </article>
+    
+    <article> 
+    <h2>How to feed your cat</h2>
+    <table border="1px">
+        <tbody>
+        <tr>
+        <th colspan="4">Feeding</th>
+        </tr>
+        <tr>
+            <th><th></th>meal</th><th>time</th><th rowspan="4"> Shedule</th></th>
+        </tr>
+        <tr>
+            <td><td>1</td>breakfest</td><td>8.00</td>
+            </tr>
+                <td><td>2</td>dinner</td><td>12.00</td>
+            </tr>
+        <tr>
+            <td><td>3</td>lunch</td><td>18.00</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    </article>
+    <article>
+        <h2> Favorite meals</h2>
+          <ul type="square">
+              <li>Meat</li>
+              <li>milk</li>
+              <li> eggs</li>
+          </ul>
+         
+    </article>
+    <article>
+        <h2> Favorite places</h2>
+        <ol type="I">
+            <li>Sofa</li>
+            <li>Bed</li>
+            <li>Tables</li>
+        </ol>
+    </article>
+    <article>
+        <h2>contact us</h2>
+        <form method="POST" action=""https://formspree.io/iraknopka7@gmail.com" >
+            <label>
+                Client name:<input type="text" name="client-name" required>
+            </label>
+            <br>
+           <label for="client-email"> Client email:</label>
+           <br>
+           <input type="email" name="client-email" id="client-email" required>
+           <br><br>
+            <input type="submit" value="send"> <input type="reset">
+            <br><br>
+            <label>
+                Car plate number:
+                <input type="text" name="car-plate" required
+                pattern="[A-Z]{2}[\d]{4}[A-Z]{2}"
+                placeholder="AA1234BB"
+                title="AA1234BB">
+            </label>
+            <br><br>
+            <label>
+                Coments:
+                <textarea name="coments"></textarea>
+            </label>
+            <br>
+            <label>
+                Your gender:
+                <input type="radio" name="gender" value="Male">Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Female">Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Other">Other
+            </label>
+        </form>
+    </article>
+    </main>
+    <footer>
+        <p> Copyright cats</p>
+    </footer>
+</body>
+</html>
